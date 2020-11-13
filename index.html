@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MyPortfolio</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=Notable' rel='stylesheet' type='text/css'>
+
+    <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Piazzolla:ital,wght@1,200;1,400&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Satisfy&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+              
+    
+  </head>
+
+  <body>
+
+    <h1><img id="bannerimg" src="images/banner.jpg" alt="This is the banner"></h1>
+    <h1> Advanced Computer Science Portfolio </h1>
+    <!--nestedMenu-->
+    <nav id="main-nav">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="pages/projects.html">Projects
+                    <span class="arrow">&#x27B3;</span>
+                </a>
+                <ul class="submenu">
+                    <li>
+                        <a href="pages/stringthingpg.html">StringThing</a>
+                    </li>
+                    <li>
+                        <a href="pages/lightningpg.html">Lightning</a>
+                    </li>
+                    <li>
+                        <a href="../pages/dicepg.html">Dice</a>
+                    </li>
+                    <li>
+                        <a href="#">DataStructures
+                            <span class="arrow">&#x27B3;</span>
+                        </a>
+                        <ul class="submenu-2">
+                            <li>
+                                <a href="#">Sets</a>
+                            </li>
+                            <li>
+                                <a href="#">Maps</a>
+                            </li>
+                            <li>
+                                <a href="#">StacksNQueues</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="">About Me
+                    <span class="arrow">&#x27B3;</span>
+                </a>
+                <ul class="submenu">
+                    <li>
+                        <a href="pages/aboutmecs.html">CompSci</a>
+                    </li>
+                    <li>
+                        <a href="pages/aboutme.html">Interests</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="pages/deepthoughts.html">Deep Thoughts</a>
+            </li>
+        </ul>
+    </nav>
+  <!--/nestedMenu-->
+     <div>
+        <div class="flexbox-container">
+          
+            <div class="flexbox-item flexbox-item-1" id="penguincontainer">
+             <script class="peggy" src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+            <script class="peggy" src="javascript/penguin.js"></script>
+            </div> 
+            <div class="flexbox-item flexbox-item-2">Saluations! Welcome to the Home page of my Computer Science Portfolio! Click on any of the tabs to navigate through the site. The "Projects" tab contains various different projects of my creation, the "About Me" tab has some information about yours truly, and the "Deep Thoughts" tab contains my journal!</div>
+            
+        </div>
+        <div id="sketch-div"></div>
+    </div>
+  
+  </body>
+  
+
+</html>
